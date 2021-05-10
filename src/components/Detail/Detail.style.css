@@ -1,0 +1,109 @@
+.card-wrapper{
+    min-height: 280px;
+    display: flex;
+    background-color: #fff;
+}
+.img {
+    padding-left: 0;
+}
+.title {
+    font-size: larger;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.description {
+    padding-top: 10px;
+}
+.content-wrapper {
+    padding-top: 25px;
+    display: flex;
+}
+.comment-btn {
+    background-color: #049ec5;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+.comment-wraper{
+    padding: 10px;
+    background-color: #fff;
+}
+.username {
+    display: flex;
+    align-items: center;
+    
+}
+.name {
+    padding : 10px;
+    font-weight: 500;
+}
+.comment-content {
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.text-area {
+    padding: 10px;
+}
+
+.modal-container {
+    width: 700px;
+    height: 400px;
+}
+
+.rating {
+    padding-top: 10px;
+    display: flex;
+    position: absolute;
+}
+.rating .rating1{
+    padding-left:50px ;
+}
+.rating .rating2 {
+    padding-left: 40px;
+}
+.rating .rating3 {
+    padding-left: 70px;
+}
+.rating .rating1 h12 {
+    color: #03ae03;
+    font-size: 25px;
+    font-weight: bold;
+}
+.rating .rating2 h12 {
+    color: #03ae03;
+    font-size: 25px;
+    font-weight: bold;
+}
+.rating .rating3 h12 {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.rating .rating1 .rating2 .rating3 p {
+    font-size: 5px;
+}
+
+.overall {
+    width: 50px;
+    height: 50px;
+    background-color: #03ae03;
+    border-radius: 50%;
+    margin-left:0px;   
+    margin-top: 8px;
+}
+.overall .content {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 6px;
+}
+.information {
+    padding-top: 80px;
+}
+.information text {
+    color: #03ae03;
+    font-weight: bold;
+}
+
